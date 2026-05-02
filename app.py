@@ -21,6 +21,7 @@ theme_toggle = dmc.Switch(
     ),
     id="color-scheme-toggle",
     persistence=True,
+    checked=True,
     color="grey",
     size="md",
 )
