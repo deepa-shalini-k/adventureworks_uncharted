@@ -3,7 +3,7 @@
 ## Overview
 
 AdventureWorks sells bikes, components, clothing and accessories across 10 global territories through two competing sales channels. 
-This application explores a $84M business over 6 fiscal years using unconventional visualizations — rarely seen in business analytics — that transform raw sales data into compelling narratives.
+This application explores a $84M business over 4 fiscal years using unconventional visualizations — rarely seen in business analytics — that transform raw sales data into compelling narratives.
 
 ## Features
 
