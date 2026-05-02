@@ -163,9 +163,9 @@ layout = dmc.AppShell(
                     dcc.RangeSlider(
                         id='fiscal-year-filter',
                         min=2017,
-                        max=2022,
-                        value=[2017, 2022],
-                        marks={i: {'label': f'{i}', 'style': {'color': '#228be6'}} for i in range(2017, 2023)},
+                        max=2020,
+                        value=[2017, 2020],
+                        marks={i: {'label': f'{i}', 'style': {'color': '#228be6'}} for i in range(2017, 2021)},
                         step=1,
                         tooltip={"placement": "bottom", "always_visible": False}
                     ),
