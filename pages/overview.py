@@ -22,10 +22,10 @@ customer_df = pd.read_csv(data_dir / 'Customer.csv')
 
 # Calculate static KPIs (immune to global filters)
 # 1. Years of Data
-years_of_data = 6
+years_of_data = 4
 
 # 2. Countries Served - distinct countries in territory table
-countries_served = territory_df['Country'].nunique()
+countries_served = territory_df['Country'].nunique() - 1 # Remove Corporate HQ from count
 
 # 3. Unique Products - distinct SKUs in Product table
 unique_products = product_df['ProductKey'].nunique()
@@ -53,7 +53,7 @@ layout = dmc.Container([
     # Description text
     dmc.Text(
         "AdventureWorks sells bikes, components, clothing and accessories across 10 global territories through two competing sales channels. "
-        "This application explores a $84M business over 6 fiscal years using unconventional visualizations — rarely seen in business analytics — that transform raw sales data into compelling narratives.",
+        "This application explores a $84M business over 4 fiscal years using unconventional visualizations — rarely seen in business analytics — that transform raw sales data into compelling narratives.",
         size="md",
         c="dimmed",
         mb="md",
