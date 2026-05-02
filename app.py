@@ -8,6 +8,7 @@ from dash_iconify import DashIconify
 from dash import dcc, html, Dash, Input, Output, State, callback, clientside_callback, page_container
 
 app = Dash(use_pages=True, suppress_callback_exceptions=True)
+server = app.server
 
 theme_toggle = dmc.Switch(
     offLabel=DashIconify(
