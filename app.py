@@ -21,6 +21,7 @@ theme_toggle = dmc.Switch(
     id="color-scheme-toggle",
     persistence=True,
     color="grey",
+    size="md",
 )
 
 layout = dmc.AppShell(
@@ -48,9 +49,9 @@ layout = dmc.AppShell(
                         [
                             dmc.Tooltip(
                                 dmc.ActionIcon(
-                                    DashIconify(icon="carbon:global-filters", width=20),
+                                    DashIconify(icon="carbon:global-filters", width=18),
                                     id="aside-toggle",
-                                    size="lg",
+                                    size="md",
                                     variant="subtle",
                                     color="gray",
                                 ),
@@ -60,11 +61,12 @@ layout = dmc.AppShell(
                             dmc.Tooltip(
                                 dmc.Anchor(
                                     dmc.ActionIcon(
-                                        DashIconify(icon="mdi:github", width=30),
+                                        DashIconify(icon="bi:github", width=18),
                                         id="github-link",
-                                        size="lg",
+                                        size="md",
                                         variant="subtle",
-                                        color="gray"
+                                        color="gray",
+                                        style={"marginTop": "4px"}
                                     ),
                                     href="https://github.com/deepa-shalini-k/adventureworks_uncharted",
                                     target="_blank",
@@ -79,6 +81,7 @@ layout = dmc.AppShell(
                             )   
                         ],
                         gap="sm",
+                        align="center",
                     ),
                 ],
                 justify="space-between",
