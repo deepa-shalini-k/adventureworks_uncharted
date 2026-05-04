@@ -8,11 +8,11 @@ This application explores a $84M business over 4 fiscal years using unconvention
 ## Features
 
 ### Unconventional Visualizations
-- **Circos Diagrams** - Revenue flow pathways between product categories and territories
-- **Sunburst Charts** - Hierarchical product category exploration
-- **Ridgeline Plots** - Sales amount distribution across fiscal quarters
-- **Stream Graphs** - Channel revenue evolution over time
-- **Bubble Maps** - Geographic order intensity visualization
+- **Circos Diagram** - Revenue flow pathways between product categories and territories
+- **Sunburst Chart** - Hierarchical product category exploration
+- **Ridgeline Plot** - Sales amount distribution across fiscal quarters
+- **Stream Graph** - Channel revenue evolution over time
+- **Bubble Map** - Geographic order intensity visualization
 
 ### Interactive Capabilities
 - **Global Filters** - Fiscal year range, quarters, regions, territories, categories, and channels
